@@ -1,50 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font: 18px Nunito, sans-serif;
-  font-weight: bold;
-}
-
 #showcase {
   position: absolute;
-  background: url("../../public/img/Santorini (Medium).jpg") center;
+  background-position: center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
   z-index: -1;
-}
-
-#content {
-  background: #FFFCF9;
-  display: flex;
-  flex-flow: wrap column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-height: 250px;
-  border-radius: 10px;
-  transform: translate(-50%, -50%);
-}
-
-.content-btn {
-  font: 18px Nunito, sans-serif;
-  font-weight: bold;
-  background: none;
-  margin: 0;
-  padding: 10px 15px;
-  border: 2px solid #B1EDE8;
-  border-radius: 5px;
-  outline: none;
-  transition: border-top-color 0.2s ease-in-out, border-right-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, border-left-color 0.2s ease-in-out;
-}
-.content-btn:hover {
-  border-color: #2F4550;
 }
 
 #header {
@@ -69,46 +30,6 @@ body {
   font-style: italic;
   margin: 0 0 20px 0;
   padding: 0;
-}
-
-.container {
-  font: 18px Nunito, sans-serif;
-  font-weight: bold;
-  display: flex;
-  flex-flow: wrap column;
-  min-width: 400px;
-  padding: 10px 15px;
-  box-sizing: border-box;
-}
-.container h2 {
-  font-size: 20px;
-  text-align: center;
-  padding: 10px 15px;
-  border-bottom: 3px solid #2F4550;
-}
-.container h3 {
-  font-size: 18px;
-  padding: 10px 15px;
-  border-bottom: 2px solid #87BCDE;
-}
-.container p {
-  font-weight: normal;
-  margin-bottom: 15px;
-  padding: 10px 15px;
-}
-.container #btn-group {
-  display: grid;
-  grid: 1fr/1fr 1fr;
-  grid-gap: 10px;
-}
-
-#registration-container {
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-}
-#registration-container.hide {
-  opacity: 0;
-  overflow: hidden;
 }
 
 form {
@@ -194,6 +115,85 @@ form #submit-btn.hide {
 }
 form #submit-btn:hover {
   border-color: #2F4550;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 18px Nunito, sans-serif;
+  font-weight: bold;
+}
+
+#content {
+  background: #FFFCF9;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 250px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.content-btn {
+  font: 18px Nunito, sans-serif;
+  font-weight: bold;
+  background: none;
+  margin: 0;
+  padding: 10px 15px;
+  border: 2px solid #B1EDE8;
+  border-radius: 5px;
+  outline: none;
+  transition: border-top-color 0.2s ease-in-out, border-right-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, border-left-color 0.2s ease-in-out;
+}
+.content-btn:hover {
+  border-color: #2F4550;
+}
+
+.container {
+  font: 18px Nunito, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-flow: wrap column;
+  min-width: 400px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.container h2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom: 3px solid #2F4550;
+}
+.container h3 {
+  font-size: 18px;
+  padding: 10px 15px;
+  border-bottom: 2px solid #87BCDE;
+}
+.container p {
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+.container #btn-group {
+  display: grid;
+  grid: 1fr/1fr 1fr;
+  grid-gap: 10px;
+}
+
+#registration-container {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+#registration-container.hide {
+  opacity: 0;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
