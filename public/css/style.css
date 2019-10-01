@@ -11,7 +11,7 @@ body {
 
 #showcase {
   position: absolute;
-  background: url("../../img/Santorini (Medium).jpg") center;
+  background: url("../../public/img/Santorini (Medium).jpg") center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
