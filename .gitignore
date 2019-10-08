@@ -3,6 +3,7 @@
 
 # Project exclude paths
 /node_modules/
+/build
 
 # User-specific stuff
 .idea/
