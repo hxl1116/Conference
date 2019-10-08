@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://hxl1116.github.io/Conference/public/index.html",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://hxl1116.github.io/Conference/public/index.html",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
