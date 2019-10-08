@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://hxl1116.github.io/Conference/public/index.html",
+  "homepage": "https://hxl1116.github.io/Conference/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
