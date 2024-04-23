@@ -14,7 +14,7 @@
   "license": "ISC",
   "homepage": "https://hxl1116.github.io/Conference/",
   "dependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
